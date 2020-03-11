@@ -4,29 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Crush</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <link
       href="https://fonts.googleapis.com/css?family=Anton&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300i,400,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="body-blog">
-    <header class="header-site container-header">
-      <div class="header-title">
-        <a href="index.html"><h1>Joshebet Ilanith</h1></a>
+   <!-- Header -->
+   <header class="header-site">
+    <!-- Header -->
+    <!-- Logo -->
+    <div class="logo">
+      <a href="index.html">
+        <img src="src/entrada-dos.jpg" alt="Logo Imagen" />
+      </a>
+      <a href="index.html" class="header-title">Joshebet Ilanith</a>
+    </div>
+    <!-- Logo -->
+    <!-- Navegación -->
+    <div class="nav header-desk">
+      <nav class="header-nav">
+        <div class="uno">
+        <a class="up" href="index.html">Inicio</a>
+        <a class="down" href="index-dos.html">Sobre Ella</a>
       </div>
-      <nav>
-        <a class="btn" href="/">Inicio</a>
-        <a class="btn" href="blog.html">Blog</a>
-        <a class="btn" href="gallery.html">Galería</a>
+      <div class="dos">
+        <a class="up" href="blog.html">Sus Dedicatorias</a>
+        <a class="down" href="gallery.html">Su Galería</a>
+      </div>
       </nav>
-    </header>
+      <!-- Navegación -->
+    </div>
+
+    <div class="menu-mobile">
+      <nav class="navigation">
+        <a href="#" id="icono" class="icono"
+          ><img class="menu" src="src/menu.png" alt=""
+        /></a>
+        <div class="enlaces uno" id="enlaces">
+          <ul>
+            <li><a class="up" href="index.html">Inicio</a></li>
+            <li><a class="down" href="index-dos.html">Sobre Ella</a></li>
+            <li><a class="up" href="blog.html">Sus Dedicatorias</a></li>
+            <li><a class="down" href="gallery.html">Su Galería</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Header -->
+
     <main class="main-blog">
-      <h2 class="centrar-parrafos titulos">
-        Blog de la niña más hermosa del mundo
-      </h2>
-      <div class="entrada-rigth entradas">
+      <div class="left entradas">
         <img src="src/entrada-uno.jpg" alt="" />
         <p class="alinear-parrafos-l">
           Joshebet Ilanith Zepeda Montiel, la mejor persona que vas a conocer
@@ -35,16 +70,15 @@
           sentimientos.
         </p>
       </div>
-      <div class="entrada-left entradas">
-        <img class="desktop" src="src/entrada-dos.jpg" alt="" />
+      <div class="right entradas">
         <p class="alinear-parrafos-r">
           Cuando te veo siento que eres como la magia de una ola que llega a la
           orilla llena de espuma, y por primera vez en mi vida quiero aprender a
           surfear
         </p>
-        <img class="mobile" src="src/entrada-dos.jpg" alt="" />
+        <img src="src/entrada-dos.jpg" alt="" />
       </div>
-      <div class="entrada-rigth entradas">
+      <div class="left entradas">
         <img src="src/entrada-tres.jpg" alt="" />
         <p class="alinear-parrafos-l">
           Sabes que me encantas, sabes que todo el tiempo te miro, sabes que no
@@ -53,25 +87,23 @@
           no me importa lo que digan de ti o de mi.
         </p>
       </div>
-      <div class="entrada-left entradas">
-        <img class="desktop" src="src/entrada-cuatro.jpg" alt="" />
+      <div class="right entradas">
         <p class="alinear-parrafos-r">
           No sé si en este momento a ti también te guste alguien, si es así
           comprenderás lo que siento, pero doy por hecho que no soy yo. Solo
           espero que si crees que esa persona te puede hacer feliz no te lo
           calles ve y díselo.
         </p>
-        <img class="mobile" src="src/entrada-cuatro.jpg" alt="" />
+        <img src="src/entrada-cuatro.jpg" alt="" />
       </div>
-      <div class="entrada-rigth entradas">
-        <img class="desktop" src="src/galeria-trentaiocho.jpg" alt="" />
+      <div class="left entradas">
+        <img src="src/galeria-trentaiocho.jpg" alt="" />
         <p class="alinear-parrafos-r">
           A final de cuentas solo sé que te amo y quiero que seas feliz, quiero
           verte sonreír, y no te voy a obligar a estar conmigo porque de eso no
           se trata esto, tal vez me dolerá y mucho lo admito pero quiero que
           estés bien.
         </p>
-        <img class="mobile" src="src/galeria-trentaicoho.jpg" alt="" />
       </div>
     </main>
   </body>
